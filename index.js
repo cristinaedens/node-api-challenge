@@ -1,3 +1,13 @@
+const server = require('./server');
+
+port = 5000
+
+server.listen(port, () => {
+    console.log(`\n ** Server is listening on http://localhost:${port} **\n`)
+})
+
+
+
 /*
 play this: https://www.youtube.com/watch?v=d-diB65scQU
 
